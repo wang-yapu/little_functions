@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29112DC21CCA5B4800AD5FE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29112DC11CCA5B4800AD5FE1 /* main.m */; };
+		29112DC51CCA5B4800AD5FE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29112DC41CCA5B4800AD5FE1 /* AppDelegate.m */; };
+		29112DCE1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29112DCC1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodeld */; };
+		29112DD01CCA5B4800AD5FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29112DCF1CCA5B4800AD5FE1 /* Assets.xcassets */; };
+		29112DD31CCA5B4800AD5FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29112DD11CCA5B4800AD5FE1 /* LaunchScreen.storyboard */; };
+		29112DDC1CCA5B8700AD5FE1 /* MainEnterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29112DDB1CCA5B8700AD5FE1 /* MainEnterTableViewController.m */; };
+		29112DE01CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29112DDF1CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.m */; };
+		29112DE51CCA5DEF00AD5FE1 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 29112DE41CCA5DEF00AD5FE1 /* UIImage+Common.m */; };
+		29112DEA1CCA5F1200AD5FE1 /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29112DE91CCA5F1200AD5FE1 /* CustomTableView.m */; };
+		75DB080A87DDA0D3C27554F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58814B4CC2C0B53EDDCB60B1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29112DBD1CCA5B4800AD5FE1 /* LittleFunctions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleFunctions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29112DC11CCA5B4800AD5FE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29112DC31CCA5B4800AD5FE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29112DC41CCA5B4800AD5FE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29112DCD1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleFunctions.xcdatamodel; sourceTree = "<group>"; };
+		29112DCF1CCA5B4800AD5FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29112DD21CCA5B4800AD5FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29112DD41CCA5B4800AD5FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29112DDA1CCA5B8700AD5FE1 /* MainEnterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEnterTableViewController.h; sourceTree = "<group>"; };
+		29112DDB1CCA5B8700AD5FE1 /* MainEnterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEnterTableViewController.m; sourceTree = "<group>"; };
+		29112DDE1CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonHighlightedTableViewController.h; sourceTree = "<group>"; };
+		29112DDF1CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonHighlightedTableViewController.m; sourceTree = "<group>"; };
+		29112DE31CCA5DEF00AD5FE1 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		29112DE41CCA5DEF00AD5FE1 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		29112DE81CCA5F1200AD5FE1 /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
+		29112DE91CCA5F1200AD5FE1 /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		58814B4CC2C0B53EDDCB60B1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6930F056AE61B3AE8A37BCA6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A62175A6F11C91A7E4376D06 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29112DBA1CCA5B4800AD5FE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DB080A87DDA0D3C27554F2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29112DB41CCA5B4800AD5FE1 = {
+			isa = PBXGroup;
+			children = (
+				29112DBF1CCA5B4800AD5FE1 /* LittleFunctions */,
+				29112DBE1CCA5B4800AD5FE1 /* Products */,
+				7F5A096C925409EFB3789784 /* Pods */,
+				CFDD973E490B2D7A4C924ADB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29112DBE1CCA5B4800AD5FE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29112DBD1CCA5B4800AD5FE1 /* LittleFunctions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29112DBF1CCA5B4800AD5FE1 /* LittleFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				29112DC31CCA5B4800AD5FE1 /* AppDelegate.h */,
+				29112DC41CCA5B4800AD5FE1 /* AppDelegate.m */,
+				29112DDA1CCA5B8700AD5FE1 /* MainEnterTableViewController.h */,
+				29112DDB1CCA5B8700AD5FE1 /* MainEnterTableViewController.m */,
+				29112DDD1CCA5D7300AD5FE1 /* UIButtonHighlightedOnTableView */,
+				29112DCF1CCA5B4800AD5FE1 /* Assets.xcassets */,
+				29112DD11CCA5B4800AD5FE1 /* LaunchScreen.storyboard */,
+				29112DD41CCA5B4800AD5FE1 /* Info.plist */,
+				29112DCC1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodeld */,
+				29112DE11CCA5DDF00AD5FE1 /* Util */,
+				29112DC01CCA5B4800AD5FE1 /* Supporting Files */,
+			);
+			path = LittleFunctions;
+			sourceTree = "<group>";
+		};
+		29112DC01CCA5B4800AD5FE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29112DC11CCA5B4800AD5FE1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29112DDD1CCA5D7300AD5FE1 /* UIButtonHighlightedOnTableView */ = {
+			isa = PBXGroup;
+			children = (
+				29112DDE1CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.h */,
+				29112DDF1CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.m */,
+				29112DE81CCA5F1200AD5FE1 /* CustomTableView.h */,
+				29112DE91CCA5F1200AD5FE1 /* CustomTableView.m */,
+			);
+			path = UIButtonHighlightedOnTableView;
+			sourceTree = "<group>";
+		};
+		29112DE11CCA5DDF00AD5FE1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				29112DE21CCA5DDF00AD5FE1 /* Category */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		29112DE21CCA5DDF00AD5FE1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				29112DE31CCA5DEF00AD5FE1 /* UIImage+Common.h */,
+				29112DE41CCA5DEF00AD5FE1 /* UIImage+Common.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7F5A096C925409EFB3789784 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A62175A6F11C91A7E4376D06 /* Pods.debug.xcconfig */,
+				6930F056AE61B3AE8A37BCA6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFDD973E490B2D7A4C924ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58814B4CC2C0B53EDDCB60B1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29112DBC1CCA5B4800AD5FE1 /* LittleFunctions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29112DD71CCA5B4800AD5FE1 /* Build configuration list for PBXNativeTarget "LittleFunctions" */;
+			buildPhases = (
+				D9BB1FBE8EADC23E581BDB0D /* Check Pods Manifest.lock */,
+				29112DB91CCA5B4800AD5FE1 /* Sources */,
+				29112DBA1CCA5B4800AD5FE1 /* Frameworks */,
+				29112DBB1CCA5B4800AD5FE1 /* Resources */,
+				75C2F067DA0C5A9005998E3A /* Embed Pods Frameworks */,
+				8CDFD20E960196E5E0B432DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleFunctions;
+			productName = LittleFunctions;
+			productReference = 29112DBD1CCA5B4800AD5FE1 /* LittleFunctions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29112DB51CCA5B4800AD5FE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yapu;
+				TargetAttributes = {
+					29112DBC1CCA5B4800AD5FE1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 29112DB81CCA5B4800AD5FE1 /* Build configuration list for PBXProject "LittleFunctions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29112DB41CCA5B4800AD5FE1;
+			productRefGroup = 29112DBE1CCA5B4800AD5FE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29112DBC1CCA5B4800AD5FE1 /* LittleFunctions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29112DBB1CCA5B4800AD5FE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29112DD31CCA5B4800AD5FE1 /* LaunchScreen.storyboard in Resources */,
+				29112DD01CCA5B4800AD5FE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C2F067DA0C5A9005998E3A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDFD20E960196E5E0B432DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BB1FBE8EADC23E581BDB0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29112DB91CCA5B4800AD5FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29112DC51CCA5B4800AD5FE1 /* AppDelegate.m in Sources */,
+				29112DC21CCA5B4800AD5FE1 /* main.m in Sources */,
+				29112DCE1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodeld in Sources */,
+				29112DDC1CCA5B8700AD5FE1 /* MainEnterTableViewController.m in Sources */,
+				29112DE51CCA5DEF00AD5FE1 /* UIImage+Common.m in Sources */,
+				29112DEA1CCA5F1200AD5FE1 /* CustomTableView.m in Sources */,
+				29112DE01CCA5D9500AD5FE1 /* ButtonHighlightedTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29112DD11CCA5B4800AD5FE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29112DD21CCA5B4800AD5FE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29112DD51CCA5B4800AD5FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29112DD61CCA5B4800AD5FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29112DD81CCA5B4800AD5FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62175A6F11C91A7E4376D06 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleFunctions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yapu.LittleFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29112DD91CCA5B4800AD5FE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6930F056AE61B3AE8A37BCA6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LittleFunctions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yapu.LittleFunctions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29112DB81CCA5B4800AD5FE1 /* Build configuration list for PBXProject "LittleFunctions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29112DD51CCA5B4800AD5FE1 /* Debug */,
+				29112DD61CCA5B4800AD5FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29112DD71CCA5B4800AD5FE1 /* Build configuration list for PBXNativeTarget "LittleFunctions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29112DD81CCA5B4800AD5FE1 /* Debug */,
+				29112DD91CCA5B4800AD5FE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29112DCC1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29112DCD1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodel */,
+			);
+			currentVersion = 29112DCD1CCA5B4800AD5FE1 /* LittleFunctions.xcdatamodel */;
+			path = LittleFunctions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29112DB51CCA5B4800AD5FE1 /* Project object */;
+}
