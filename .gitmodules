@@ -1,0 +1,3 @@
+[submodule "LittleFunctions.xcodeproj/external/ReactiveCocoa"]
+	path = LittleFunctions.xcodeproj/external/ReactiveCocoa
+	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
